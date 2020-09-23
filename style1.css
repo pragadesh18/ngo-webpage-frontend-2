@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    background: rgba(235, 237, 240, 0.856);
+    height: 100vh;
+}
+.video-background
+{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    min-width: 100;
+    min-height: 100;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9)
+{
+    .video-background
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio:16/9)
+{
+    .video-background
+    {
+        width: auto;
+        height: 100%;
+    }
+}
+.logo
+{
+    margin: 25px;
+    height: 40px;
+}
+.welcome-msg
+{
+    position: relative;
+    text-align: center;
+    font-family: monospace;
+    color: rgb(8, 8, 8);
+    top: 150px;
+}
+.welcome-msg
+{
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+.btn
+{
+    font-size: 20px;
+    color: rgb(17, 15, 15);
+    margin: 5px;
+    padding: 7px 22px;
+    text-decoration: none;
+    border: 1px solid coral;
+    border-radius: 25px;
+}
+.btn-donar
+{
+    background: coral;
+}
+.btn-program manager:hover
+{
+    background: coral;
+    transition: .5s;
+}
+.btn btn-volunteer:hover
+{
+    background: coral;
+    transition: .5s
+}
+.btn btn-provide service:hover
+{
+    background: coral;
+    transition: .5s
+}
